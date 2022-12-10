@@ -9,7 +9,7 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
-.welcome {
+#welcome {
   width: 100%;
   height: 100vh;
   padding: 20px;
@@ -38,7 +38,24 @@ body {
   text-shadow: 0 0 5px #000;
 }
 
-.whama {
+#play {
+  margin-top: 60px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #FFF;
+  color: #3D464D;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#play:hover{
+  background-color: #3D464D;
+  color: #FFF;
+}
+
+#whama {
   padding: 40px 20px;
 }
 

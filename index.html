@@ -18,22 +18,25 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <section class="welcome">
+    <section id="welcome">
       <h1 class="main-title">Merry Christmas and Happy Holidays!</h1>
       <p class="message">May the sweet magic of the Christmas season be with you always.</p>
+      <button id="play">Get your gift</button>
     </section>
-    <section class="whama">
+    <section id="whama">
       <h2 class="subtitle">D'oh!</h2>
       <p class="text">Looks like you just loose at <a href="https://www.whamageddon.com/" target="_blank">Whamageddon</a>.
         You ended up in Whamhalla <a href="https://twitter.com/search?q=%23whamageddon" target="_blank">#whamageddon</a></p>
 
-      <iframe
+      <!--<iframe
         src="https://www.youtube.com/embed/E8gmARGvPlI?autoplay=1"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      ></iframe>-->
+      <div id="player"></div>
     </section>
+    <script src="app.js"></script>
   </body>
 </html>
